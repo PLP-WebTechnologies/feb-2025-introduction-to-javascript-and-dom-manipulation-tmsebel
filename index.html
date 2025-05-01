@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawana Msebele | Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Tawana Msebele</h1>
+            <p>Full Stack Engineer | Coding the future one line at a time. </p>
+        </div>
+    </header>
+
+    <!-- About Me -->
+    <section class="about">
+        <h2><span class="icon">🧑</span> About Me</h2>
+        <p>I’m Tawana Msebele, an aspiring software developer currently advancing my skills through the Software Development Scholarship with Powerlearn Project. With a Diploma in Information Technology Support and certificates in Foundations of Generative AI and AWS Cloud Computing, I bring a strong foundation in IT and a growing expertise in coding. I’m driven to create impactful tech solutions and am excited to showcase my journey.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+        <h2><span class="icon">🛠️</span> Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>IT Support & Troubleshooting</li>
+            <li>Generative AI Fundamentals</li>
+            <li>Python and Flask</li>
+            <li>AWS Cloud Computing</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <h2><span class="icon">📁</span> Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A clean, simple and  professional portfolio site built with HTML,CSS and Javascript to highlight my skills and projects as part of my Powerlearn Project scholarship.</p>
+            <img src="portfolio-image.jpg" alt="Portfolio Project">
+        </div>
+        <div class="project">
+            <h3>Cloud Resource Dashboard Mockup</h3>
+            <p>A static mockup of a cloud resource dashboard, inspired by my AWS Cloud Computing certification, designed using HTML and CSS.</p>
+            <img src="cloud-image.jpg" alt="Cloud Project">
+        </div>
+        <div class="project">
+            <h3>IT Support System Layout</h3>
+            <p>A conceptual design of an IT support ticketing system interface, created with HTML and CSS, reflecting my experience in IT support.</p>
+            <img src="extra-image.jpg" alt="IT Support Project">
+        </div>
+    </section>
+    <!-- Contact Form -->
+    <section class="contact">
+        <h2><span class="icon">📧</span> Contact Me</h2>
+        <div id="form-message" class="form-message"></div>
+        <form id="contact-form" action="https://formspree.io/f/mldjplgb" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="cell">Cell Number:</label>
+                <input type="tel" id="cell" name="cell" placeholder="Your Cell Number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">What Do You Need Help With?</label>
+                <textarea id="message" name="message" placeholder="Write a short message..." rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Contact me: Cell: 0820614075 | Email: msebeletawana@gmail.com</p>
+            <div class="social-links">
+                <a href="https://github.com/tmsebel" target="_blank" aria-label="GitHub">☛ GitHub</a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">☛ LinkedIn</a>
+            </div>
+            <p class="footer-copy">© 2025 Tawana Msebele. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script></script>
